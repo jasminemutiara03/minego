@@ -24,7 +24,7 @@ func TestInsertRencanastudi(t *testing.T) {
 	fmt.Println(hasil)
 }
 
-func TestInsertNilai(t *testing.T) {
+func TestInsertNilaidhs(t *testing.T) {
 	nama_matkul := "Network Programming"
 	kode_matkul := "TI42253"
 	sks := "3"

@@ -12,7 +12,7 @@ type RencanaStudi struct {
 	Sks         string             `bson:"sks,omitempty" json:"sks,omitempty"`
 	Kelas       string             `bson:"kelas,omitempty" json:"kelas,omitempty"`
 }
-type Nilai struct {
+type Nilaidhs struct {
 	ID          primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty"`
 	Nama_matkul string             `bson:"nama_matkul,omitempty" json:"nama_matkul,omitempty"`
 	Kode_matkul string             `bson:"kode_matkul,omitempty" json:"kode_matkul,omitempty"`

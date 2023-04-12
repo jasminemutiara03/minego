@@ -37,7 +37,7 @@ func InsertRencanastudi(nama_matkul string, kode_matkul string, status string, s
 	return InsertOneDoc("Kewirausahaan", "rencanastudi", rencanastudi)
 }
 func InsertNilai(nama_matkul string, kode_matkul string, sks string, grade string) (InsertedID interface{}) {
-	var nilai Nilai
+	var nilai Nilaidhs
 	nilai.Nama_matkul = nama_matkul
 	nilai.Kode_matkul = kode_matkul
 	nilai.Sks = sks
